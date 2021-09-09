@@ -1,0 +1,54 @@
+
+    body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #e74c3c;
+
+}
+.max-widht{
+    max-width:500px;
+    width: 100%;
+    padding: 55px;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    margin-top:10%;
+    background-color: #485460;
+    text-align: center;
+    
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    font-family: 'Segoe UI';
+    font-size: 1.1em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 25px;
+    
+}
+
+button:hover{
+    background-color: #c0392b;
+    border: 2px solid #c0392b;
+    margin: 20px auto;  
+    padding: 14px 10px;
+    outline: none;
+    transition: 0.25s;  
+}
+.bg-green{
+    background-color:#b2d1a1 ;
+}
+
+.bg-yellow{
+    background-color: #d1cba1;
+}
+.bg-red{
+    background-color: #d1a1a1;
+}
